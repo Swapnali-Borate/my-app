@@ -6,7 +6,7 @@ const Game = () => {
     const [cond, setCond] = useState(true)
     // console.log(num)
 
-    const checkWinner = () => {
+    const checkWinner = () => {  
         let winner = [
             [0, 1, 2],
             [3, 4, 5],

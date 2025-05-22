@@ -17,7 +17,7 @@ const NewsApp = () => {
     }
 
     useEffect(()=>{
-        getData()
+        getData()  
     },[])
 
     const handleInput =(e)=>{
